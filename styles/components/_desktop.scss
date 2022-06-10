@@ -1,0 +1,43 @@
+@import "../abstract/variables";
+
+@media (min-width:80em){
+  .wrapper{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 13rem;
+    background-image: url(../images/bg-intro-desktop.png);
+    margin: auto 0;
+    .text{
+      text-align: left;
+      .text__title{
+        padding-inline:0 ;
+        font-size: 3rem;
+        padding-right: 10rem;
+      }
+      .text__paragraph{
+        padding-bottom: 0;
+        padding-right: 8rem;
+        font-size: 1rem;
+      }
+
+    }
+    .form-div{
+      .form-tag{
+        .error-message-first-name{
+          top: 17%;
+        }
+        .error-message-last-name{
+          top: 34%;
+        }
+        .error-message-email{
+          top:51.5%
+        }
+        .error-message-password{
+          top:68%;
+        }
+      }
+    }
+  }
+}

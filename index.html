@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+
+</head>
+<body>
+
+  <main>
+    <section class="wrapper">
+
+      <div class="text">
+        <h1 class="text__title">Learn to code by watching others</h1>
+
+        <p class="text__paragraph">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable.</p> 
+      </div>
+
+      <div class="form-div">
+
+        <div class="form__block-ad">
+          <p><span>Try it free 7 days</span> then <br>$20/mo. thereafter</p>
+
+        </div>
+
+        <form id="form" class="form-tag">
+          <input type="text" name="" id="" placeholder="First Name" >
+          <img class="error-icon-first-name error-icon hide" src="./images/icon-error.svg" alt="Error">
+          <small class="error-message-first-name error-message hide">First Name cannot be empty</small>
+
+          <input type="text" name="" id="" placeholder="Last Name" >
+          <img class="error-icon-last-name error-icon hide" src="./images/icon-error.svg" alt="Error">
+          <small class="error-message-last-name error-message hide">Last Name cannot be empty</small>
+
+          <input type="email" class="" id="email" placeholder="Email Address" >
+          <img class="error-icon-email hide" src="./images/icon-error.svg" alt="Error">
+          <small class="error-message-email hide ">Looks like this is not an email</small>
+
+          <input type="password" name="" id="" placeholder="Password" >
+          <img class="error-icon-password error-icon hide" src="./images/icon-error.svg" alt="Error">
+          <small class="error-message-password error-message hide">Password cannot be empty</small>
+
+
+          <button>
+            <p>
+              Claim your free trial 
+            </p>
+          </button>
+  
+          <p>By clicking the button, you are agreeing to <br> our <span>Terms and Services</span></p>
+        </form>
+
+      </div>
+    </section>
+  </main>
+  <script src="./scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  max-width: 100vw;
+  padding: 5.75rem 1.7rem 4rem 1.7rem;
+  background-color: #ff7a7a;
+  background-image: url(../images/bg-intro-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper .text {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.wrapper .text .text__title {
+  padding-bottom: 2rem;
+  font-weight: 600;
+  font-size: 2.55rem;
+  padding-inline: 2.3rem;
+  line-height: 1.3;
+}
+
+.wrapper .text .text__paragraph {
+  padding-bottom: 4rem;
+  font-size: 1.35rem;
+}
+
+.wrapper .form-div .form__block-ad {
+  background-color: #6055a5;
+  padding-block: 1.3rem;
+  border-radius: .7rem;
+  margin-bottom: 1.473rem;
+  -webkit-box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper .form-div .form__block-ad p {
+  color: #FFFFFF;
+  font-weight: 300;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.wrapper .form-div .form__block-ad p span {
+  font-weight: 600;
+}
+
+.wrapper .form-div .form-tag {
+  background-color: #FFFFFF;
+  padding: 1.4rem;
+  border-radius: .7rem;
+  -webkit-box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.wrapper .form-div .form-tag .error-icon-first-name {
+  position: absolute;
+  right: 8%;
+  top: 8%;
+}
+
+.wrapper .form-div .form-tag .error-icon-last-name {
+  position: absolute;
+  right: 8%;
+  top: 24.8%;
+}
+
+.wrapper .form-div .form-tag .error-icon-email {
+  position: absolute;
+  right: 8%;
+  top: 42%;
+}
+
+.wrapper .form-div .form-tag .error-icon-password {
+  position: absolute;
+  right: 8%;
+  top: 58%;
+}
+
+.wrapper .form-div .form-tag small {
+  color: #ff7a7a;
+  font-style: italic;
+  font-size: .8rem;
+}
+
+.wrapper .form-div .form-tag .error-message-first-name {
+  position: absolute;
+  right: 8%;
+  top: 16%;
+}
+
+.wrapper .form-div .form-tag .error-message-last-name {
+  position: absolute;
+  right: 8%;
+  top: 33%;
+}
+
+.wrapper .form-div .form-tag .error-message-email {
+  position: absolute;
+  right: 8%;
+  top: 49.7%;
+}
+
+.wrapper .form-div .form-tag .error-message-password {
+  position: absolute;
+  right: 8%;
+  top: 67.5%;
+}
+
+.wrapper .form-div .form-tag .hide {
+  display: none;
+}
+
+.wrapper .form-div .form-tag input {
+  width: 100%;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
+  border: 1px solid #b9b6d3;
+  padding-block: 1.5rem;
+  outline: none;
+}
+
+.wrapper .form-div .form-tag input::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding-left: 1rem;
+}
+
+.wrapper .form-div .form-tag input:-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding-left: 1rem;
+}
+
+.wrapper .form-div .form-tag input::-ms-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding-left: 1rem;
+}
+
+.wrapper .form-div .form-tag input::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding-left: 1rem;
+}
+
+.wrapper .form-div .form-tag input:focus {
+  border: 1px solid #3e3c49;
+}
+
+.wrapper .form-div .form-tag input.success {
+  border: 2px solid #38cc8c;
+}
+
+.wrapper .form-div .form-tag input.error {
+  border: 2px solid #ff7a7a;
+}
+
+.wrapper .form-div .form-tag button {
+  border: none;
+  background-color: #38cc8c;
+  width: 100%;
+  padding-bottom: .98rem;
+  padding-top: 1.13rem;
+  border-radius: .5rem;
+  -webkit-box-shadow: 0px 4px 0px 0px #38ac7c;
+          box-shadow: 0px 4px 0px 0px #38ac7c;
+  margin-bottom: 1rem;
+}
+
+.wrapper .form-div .form-tag button:hover {
+  -webkit-filter: brightness(1.05);
+          filter: brightness(1.05);
+  cursor: pointer;
+}
+
+.wrapper .form-div .form-tag button p {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.wrapper .form-div .form-tag p {
+  color: #b9b6d3;
+  display: block;
+  text-align: center;
+  padding-inline: 1rem;
+  font-size: .8rem;
+  line-height: 2;
+}
+
+.wrapper .form-div .form-tag p span {
+  color: #ff7a7a;
+  font-weight: 700;
+}
+
+@media (min-width: 80em) {
+  .wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+    padding: 0 13rem;
+    background-image: url(../images/bg-intro-desktop.png);
+    margin: auto 0;
+  }
+  .wrapper .text {
+    text-align: left;
+  }
+  .wrapper .text .text__title {
+    padding-inline: 0;
+    font-size: 3rem;
+    padding-right: 10rem;
+  }
+  .wrapper .text .text__paragraph {
+    padding-bottom: 0;
+    padding-right: 8rem;
+    font-size: 1rem;
+  }
+  .wrapper .form-div .form-tag .error-message-first-name {
+    top: 17%;
+  }
+  .wrapper .form-div .form-tag .error-message-last-name {
+    top: 34%;
+  }
+  .wrapper .form-div .form-tag .error-message-email {
+    top: 51.5%;
+  }
+  .wrapper .form-div .form-tag .error-message-password {
+    top: 68%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
